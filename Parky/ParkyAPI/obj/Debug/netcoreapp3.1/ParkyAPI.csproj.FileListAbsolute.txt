@@ -33,8 +33,6 @@ C:\Users\Apokalipsis\source\repos\ParkyNetCore\Parky\ParkyAPI\obj\Debug\netcorea
 C:\Users\Apokalipsis\source\repos\ParkyNetCore\Parky\ParkyAPI\obj\Debug\netcoreapp3.1\ParkyAPI.csproj.CoreCompileInputs.cache
 C:\Users\Apokalipsis\source\repos\ParkyNetCore\Parky\ParkyAPI\obj\Debug\netcoreapp3.1\ParkyAPI.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Apokalipsis\source\repos\ParkyNetCore\Parky\ParkyAPI\obj\Debug\netcoreapp3.1\staticwebassets\ParkyAPI.StaticWebAssets.Manifest.cache
-C:\Users\Apokalipsis\source\repos\ParkyNetCore\Parky\ParkyAPI\obj\Debug\netcoreapp3.1\staticwebassets\ParkyAPI.StaticWebAssets.xml
-C:\Users\Apokalipsis\source\repos\ParkyNetCore\Parky\ParkyAPI\obj\Debug\netcoreapp3.1\scopedcss\bundle\ParkyAPI.styles.css
 C:\Users\Apokalipsis\source\repos\ParkyNetCore\Parky\ParkyAPI\obj\Debug\netcoreapp3.1\ParkyAPI.RazorTargetAssemblyInfo.cache
 C:\Users\Apokalipsis\source\repos\ParkyNetCore\Parky\ParkyAPI\obj\Debug\netcoreapp3.1\ParkyAPI.csproj.CopyComplete
 C:\Users\Apokalipsis\source\repos\ParkyNetCore\Parky\ParkyAPI\obj\Debug\netcoreapp3.1\ParkyAPI.dll
@@ -46,3 +44,9 @@ C:\Users\Apokalipsis\source\repos\ParkyNetCore\Parky\ParkyAPI\bin\Debug\netcorea
 C:\Users\Apokalipsis\source\repos\ParkyNetCore\Parky\ParkyAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
 C:\Users\Apokalipsis\source\repos\ParkyNetCore\Parky\ParkyAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
 C:\Users\Apokalipsis\source\repos\ParkyNetCore\Parky\ParkyAPI\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Apokalipsis\source\repos\ParkyNetCore\Parky\ParkyAPI\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\Apokalipsis\source\repos\ParkyNetCore\Parky\ParkyAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Apokalipsis\source\repos\ParkyNetCore\Parky\ParkyAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Apokalipsis\source\repos\ParkyNetCore\Parky\ParkyAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Apokalipsis\source\repos\ParkyNetCore\Parky\ParkyAPI\obj\Debug\netcoreapp3.1\ParkyAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Apokalipsis\source\repos\ParkyNetCore\Parky\ParkyAPI\bin\Debug\netcoreapp3.1\ParkyAPI.xml
