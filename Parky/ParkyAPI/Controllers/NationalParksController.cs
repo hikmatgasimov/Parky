@@ -2,6 +2,7 @@
 using AutoMapper;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using ParkyAPI.IRepository.Repository;
 using ParkyAPI.Models;
 using ParkyAPI.Repository;
 using System;
@@ -12,7 +13,7 @@ namespace ParkyAPI.Controllers
     [Route("api/[controller]")]
     [ApiController]
     [ProducesResponseType(400)]
-    public class NationalParksController : ControllerBase
+    public class NationalParksController : Controller
     {
         private readonly INationalParkRepository _npRepo;
         private readonly IMapper _mapper;
