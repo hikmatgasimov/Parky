@@ -11,7 +11,10 @@ using System.Threading.Tasks;
 
 namespace ParkyAPI.Controllers
 {
-    [Route("api/[controller]")]
+    //[Route("api/[controller]")]
+   
+    [Route("api/v{version:apiVersion}/trails")]
+    //[ApiExplorerSettings(GroupName = "ParkyOpenAPISpecTrails")]
     [ApiController]
     [ProducesResponseType(400)]
     public class TrailsController : Controller
@@ -49,7 +52,7 @@ namespace ParkyAPI.Controllers
         /// <summary>
         /// Get individual trail
         /// </summary>
-        /// <param name="nationalParkId"> The Id of individual the national Park</param>
+        /// <param name="trailId"> The Id of individual the national Park</param>
         /// <returns></returns>
         [HttpGet("{trailId:int}", Name = "GetTrail")]
         [ProducesResponseType(200, Type = typeof(TrailDto))]
@@ -70,6 +73,25 @@ namespace ParkyAPI.Controllers
             //    State = obj.State,
             //};
 
+            return Ok(objDto);
+        }
+        [HttpGet("[action]/{nationalParkId:int}")]
+        [ProducesResponseType(200, Type = typeof(TrailDto))]
+        [ProducesResponseType(404)]
+        [ProducesDefaultResponseType]
+        public IActionResult GetTrailNationalPark(int nationalParkId)
+        {
+            var objList = _trailRepo.GetTrailsInNationalPark(nationalParkId);
+
+            if (objList == null) return NotFound();
+
+            var objDto = new List<TrailDto>();
+
+            foreach (var obj in objList)
+            {
+                objDto.Add(_mapper.Map<TrailDto>(obj));
+            }
+           
             return Ok(objDto);
         }
         [HttpPost]

@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "yqpred4iRXmw/sas7g+d6WUxeIjxlJYVXrGUtJHTVfZOHVz/1ktTvK48lFFMj0dCkjBZjccoVccPAMNdaKVtKw==",
+  "dgSpecHash": "SP0eWrmIak7gI5eRjGr+WGizw76IzshG52ko/GoknmuE3yaI/W3K2jDrFD8FdKum5INtlbposnlE/NOjvxRSJA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Apokalipsis\\source\\repos\\ParkyNetCore\\Parky\\ParkyAPI\\ParkyAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Apokalipsis\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\Apokalipsis\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+    "C:\\Users\\Apokalipsis\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning\\5.0.0\\microsoft.aspnetcore.mvc.versioning.5.0.0.nupkg.sha512",
+    "C:\\Users\\Apokalipsis\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning.apiexplorer\\5.0.0\\microsoft.aspnetcore.mvc.versioning.apiexplorer.5.0.0.nupkg.sha512",
     "C:\\Users\\Apokalipsis\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
     "C:\\Users\\Apokalipsis\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
     "C:\\Users\\Apokalipsis\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

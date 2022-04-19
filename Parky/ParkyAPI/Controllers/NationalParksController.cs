@@ -10,8 +10,10 @@ using System.Collections.Generic;
 
 namespace ParkyAPI.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/v{version:apiVersion}/nationalparks")]
+    // [Route("api/[controller]")]
     [ApiController]
+    //[ApiExplorerSettings(GroupName = "ParkyOpenAPISpecNP")]
     [ProducesResponseType(400)]
     public class NationalParksController : Controller
     {
@@ -98,7 +100,7 @@ namespace ParkyAPI.Controllers
                 ModelState.AddModelError("", $"Something went wrong when saving the record {nationalParkObj.Name}");
                 return StatusCode(500, ModelState);
             }
-            return CreatedAtAction("GetNationalPark", new { nationalParkId = nationalParkObj.Id }, nationalParkObj);
+            return CreatedAtAction("GetNationalPark", new {version=HttpContext.GetRequestedApiVersion().ToString() , nationalParkId = nationalParkObj.Id }, nationalParkObj);
         }
         [HttpPatch("{id:int}", Name = "UpdateNationalPark")]
         [ProducesResponseType(204)]
